@@ -67,5 +67,6 @@ public class InMemoryTimeEntryRepositoryTest {
 
         repo.delete(created.getId());
         assertThat(repo.list()).isEmpty();
+
     }
 }
